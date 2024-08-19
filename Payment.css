@@ -1,0 +1,60 @@
+.payment-container {
+    
+    color: rgb(15, 15, 15); /* Dark text for readability */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-details {
+    margin-bottom: 20px;
+  }
+  
+  .payment-details p {
+    margin: 5px 0;
+  }
+  
+  .download-bill-button,
+  .download-certificate-button {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .download-bill-button:hover,
+  .download-certificate-button:hover {
+    background-color: darkred;
+  }
+  
+  .back-home {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-home:hover {
+    background-color: darkred;
+  }
+  
+  .header-right .active {
+    border-bottom: 2px solid white; /* Underline for active nav item */
+  }
+  

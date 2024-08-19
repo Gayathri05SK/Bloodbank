@@ -1,0 +1,157 @@
+.register-page {
+    background-color: rgb(244, 65, 65);
+    color: rgb(15, 15, 15);
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  fieldset {
+    border: none;
+    margin: 10px 0;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .submit-button {
+    background-color: rgb(49, 18, 252);
+    color: rgb(18, 18, 18);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: darkred;
+  }
+  
+  .back-button {
+    background-color: transparent;
+    color: rgb(15, 15, 15);
+    border: 1px solid rgb(17, 17, 17);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  .error {
+    color: lightcoral;
+  }
+  .register-page {
+    padding: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    margin-bottom: 10px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit-button,
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .back-button {
+    margin-left: 10px;
+  }
+  .register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .register-form label {
+    margin-bottom: 10px;
+  }
+  
+  .register-form input, .register-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit-button, .back-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #f44336;
+    color: white;
+  }
+  

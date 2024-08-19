@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Default background color */
+  transition: background-color 0.3s;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust this color to match your design */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff; /* Default background color */
+}
+
+.home-left {
+  flex: 1;
+  position: relative;
+  height: 100%; /* Ensures the left section takes the full height */
+}
+
+.background-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire section without distortion */
+}
+
+.home-right {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  height: 100%; /* Ensures the right section takes the full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-right h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-right h4 {
+  font-size: 1.5em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.reach-out h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: tomato;
+}

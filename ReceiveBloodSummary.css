@@ -1,0 +1,38 @@
+/* src/components/ReceiveBloodSummary.css */
+
+.receive-blood-summary-container {
+  padding: 20px;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.receive-blood-summary-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.receive-blood-summary-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.receive-blood-summary-container strong {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+.receive-blood-summary-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.receive-blood-summary-container button:hover {
+  background-color: darkred;
+}

@@ -1,0 +1,133 @@
+/* DonateBlood.css */
+
+.donate-blood-container {
+  background-color: rgb(244, 65, 65); /* Tomato background color */
+  color: rgb(15, 15, 15); /* Text color */
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto; /* Allow scrolling if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donate-blood-form {
+  max-width: 500px; /* Adjusted form width */
+  width: 100%; /* Ensure the form fits the page width */
+  margin: 0 auto;
+  background-color: white; /* Form background color for contrast */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Light border for input fields */
+  border-radius: 4px;
+}
+
+.form-fieldset {
+  border: none;
+  margin: 10px 0;
+}
+
+.form-radio {
+  display: block;
+  margin: 5px 0;
+}
+
+.form-radio input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form-submit-button {
+  background-color: rgb(49, 18, 252); /* Blue button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-submit-button:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
+
+.form-back-button {
+  background-color: transparent; /* Transparent background */
+  color: black; /* Black text color */
+  border: 1px solid black; /* Black border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-back-button:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Slightly white on hover */
+  color: black;
+}
+
+.form-error {
+  color: lightcoral;
+}
+.donate-blood-container {
+  padding: 20px;
+}
+
+.donate-blood-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+.form-fieldset {
+  margin: 10px 0;
+}
+
+.form-radio {
+  margin-right: 15px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-submit-button,
+.form-back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.form-back-button {
+  margin-left: 10px;
+}

@@ -1,0 +1,106 @@
+.about-us {
+    padding: 40px 20px;
+    background-color: #f34343;
+    color: #333;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.vision-mission,
+.impact-join {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.vision, .mission,
+.impact, .cta {
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vision:hover, .mission:hover,
+.impact:hover, .cta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.vision h2, .mission h2,
+.impact h2, .cta h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #e63946; /* Tomato-like color */
+}
+
+.vision p, .mission p,
+.impact p, .cta p {
+    font-size: 1.15em;
+    line-height: 1.8;
+    color: #555;
+    text-align: left;
+}
+
+.why-donate {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-donate h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.why-donate p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.why-donate ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-donate ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.why-donate ul li strong {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
